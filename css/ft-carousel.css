@@ -1,0 +1,75 @@
+ul,
+ol,
+li,
+div {
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+.ft-carousel {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.ft-carousel .carousel-inner {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+}
+
+.ft-carousel .carousel-inner .carousel-item {
+	float: left;
+	height: 100%;
+}
+
+.ft-carousel .carousel-item img {
+	width: 100%;
+}
+
+.ft-carousel .carousel-indicators {
+    position: absolute;
+    left: 389px;
+    top: 419px;
+    width: 100%;
+    font-size: 0;
+}
+
+.ft-carousel .carousel-indicators span {
+	display: inline-block;
+	width: 109px;
+	height: 25px;
+	background-color: transparent;
+	margin: 0 2px;
+	cursor: pointer;
+}
+.ft-carousel .carousel-btn {
+	position: absolute;
+	top: 50%;
+	width: 50px;
+	height: 45px;
+	margin-top: -100px;
+	cursor: pointer;
+}
+
+.ft-carousel .carousel-prev-btn {
+	left: 300px;
+	/* bottom: 100px; */
+	background: url(../images/prev.png) no-repeat;
+	/* opacity: 0.6; */
+}
+
+.ft-carousel .carousel-next-btn {
+	right: 300px;
+	/* bottom: 100px; */
+	/* opacity: 0.6; */
+
+	background: url(../images/next.png) no-repeat;
+}
